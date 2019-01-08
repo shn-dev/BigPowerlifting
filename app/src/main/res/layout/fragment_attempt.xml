@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:paddingTop="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+            <ImageView
+                android:layout_centerVertical="true"
+                android:id="@+id/attemptselectstartlogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_fitness_center_black_24dp"/>
+
+            <TextView
+                android:id="@+id/maxeffortstarttitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_toEndOf="@id/attemptselectstartlogo"
+                android:fontFamily="@font/roboto_light"
+                android:text="@string/maxeffortresultstitle"
+                android:textColor="@color/cardTitle"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/maxeffortstarttitle"
+                android:layout_marginStart="32dp"
+                android:layout_toEndOf="@id/attemptselectstartlogo"
+                android:fontFamily="@font/roboto_light"
+                android:text="@string/maxeffortresultssubtitle"
+                android:textColor="@color/cardContent"
+                android:textSize="14dp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/divider"
+            />
+
+    <TextView
+        android:id="@+id/firstAttemptHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:fontFamily="@font/roboto_light"
+        android:text="Attempt 1"/>
+
+        <RelativeLayout
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/firstAttemptSubHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How are you feeling?" />
+        <SeekBar
+            android:layout_below="@id/firstAttemptSubHeader"
+            android:layout_marginTop="16dp"
+            android:id="@+id/seekbarAttempt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_below="@id/seekbarAttempt1"
+            android:layout_alignParentStart="true"
+            android:text="Bad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_below="@id/seekbarAttempt1"
+            android:text="Good"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+        <RelativeLayout
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/secondAttemptSubheader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How hard was your first attempt?"/>
+            <SeekBar
+                android:layout_marginTop="16dp"
+                android:layout_below="@id/secondAttemptSubheader"
+                android:id="@+id/seekbarAttempt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_below="@id/seekbarAttempt2"
+                android:layout_alignParentStart="true"
+                android:text="Easy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_below="@id/seekbarAttempt2"
+                android:text="Hard"
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/thirdAttempSubheader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Considering fatigue and the difficulty of your second attempt, how confident are you for your third attempt?"/>
+            <SeekBar
+                android:layout_marginTop="16dp"
+                android:layout_below="@id/thirdAttempSubheader"
+                android:id="@+id/seekbarAttempt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_below="@id/seekbarAttempt3"
+                android:layout_alignParentStart="true"
+                android:text="Anxious"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_below="@id/seekbarAttempt3"
+                android:text="Excited"
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,104 @@
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_margin="16dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp">
+    <RelativeLayout
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="72dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_swap_vert_black_24dp"
+            android:id="@+id/titleIcon"/>
+        <TextView
+            android:paddingStart="32dp"
+            android:layout_toEndOf="@id/titleIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/cardTitle"
+            android:textSize="20sp"
+            android:text="@string/kilopoundsconversiontitle"
+            android:fontFamily="@font/roboto_light"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider"/>
+    <LinearLayout
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter # of Kilos">
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:id="@+id/unitConversionKilosET"
+            android:inputType="numberDecimal"
+            android:layout_height="wrap_content"/>
+    </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_light"
+            android:text="@string/Kilos"
+            android:id="@+id/kilosTV"
+            android:textSize="36sp" />
+
+    </LinearLayout>
+<View
+    android:layout_marginRight="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_width="wrap_content"
+    android:layout_height="1dp"
+    android:background="@color/divider"/>
+    <LinearLayout
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter # of Pounds">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/unitConversionPoundsET"
+                android:layout_width="match_parent"
+                android:textAlignment="center"
+                android:inputType="numberDecimal"
+                android:layout_height="wrap_content"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_light"
+            android:text="@string/Pounds"
+            android:id="@+id/poundsTV"
+            android:textSize="36sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+</android.support.v7.widget.CardView>

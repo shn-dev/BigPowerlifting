@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">BigPowerlifting</string>
+    <string name="cardAction1">OPEN TOOL</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+
+    <!-- Generic app strings -->
+    <string name="Squat">Squat</string>
+    <string name="Bench">Bench</string>
+    <string name="Benchpress">Bench Press</string>
+    <string name="Deadlift">Deadlift</string>
+    <string name="DL">DL</string>
+
+    <!-- Kilo Conversion strings -->
+    <string name="Kilos">Kilos</string>
+    <string name="Pounds">Pounds</string>
+    <string name="kilopoundsconversiontitle">Kilo-Pounds Conversion</string>
+
+    <!-- USAPL rankings strings -->
+
+    <string name="federationselecttitle">Federation Selection</string>
+    <string name="federationselectionsubtitle">Please select your federation.</string>
+    <string name="USAPLLifter_Placing">Placing</string>
+    <string name="USAPLLifter_division">Division</string>
+    <string name="USAPLLifter_weightclass">Weightclass</string>
+    <string name="USAPLLifter_bodyweight">Bodyweight</string>
+    <string name="USAPLLifter_total">Total</string>
+    <string name="USAPLLifter_Wilks">Wilks</string>
+    <string name="RankingsTitle">Lifter Rankings</string>
+    <string name="usapl_rankings">USAPL Rankings</string>
+    <string name="view_rankings_by_class">View rankings by class</string>
+    <string name="search">SEARCH</string>
+    <string name="search_by_lifter_name">Search by lifter name</string>
+    <string name="lifterSearchAutoFillhint">Enter name here</string>
+    <string name="rankingsSelectionTitle">Select a Federation:</string>
+
+    <!-- Max Effort Strings -->
+    <string name="calculate">CALCULATE</string>
+    <string name="maxefforttitle">Max Effort Calculator</string>
+    <string name="maxeffortsubtitle">Find out your estimated 1RM.</string>
+    <string name="maxeffortresultstitle">Max Effort Estimations</string>
+    <string name="maxeffortresultssubtitle">All besides "RPE vs. Reps" use RPE10.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Attempt Selection -->
+    <string name="attemptSelectionTitle">Attempts: Bench Press</string>
+    <string name="title_activity_attempt_selection">AttemptSelectionActivity</string>
+    <string name="attempt1">First Attempt</string>
+    <string name="attempt2">Second Attempt</string>
+    <string name="attempt3">Third Attempt</string>
+    <string name="attemptSelectionStartTitle">Attempt Selector</string>
+    <string name="attemptSelectionStartSubtitle">Please enter your maxes below.</string>
+    <string name="light">Light</string>
+    <string name="realistic">Realistic</string>
+    <string name="Heavy">Heavy</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>
+

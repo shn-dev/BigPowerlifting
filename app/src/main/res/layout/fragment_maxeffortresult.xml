@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context="com.bigpowerlifting.bigsoftware.bigpowerlifting.maxeffort.MaxEffortResultFragment">
+
+    <RelativeLayout
+        tools:context="com.bigpowerlifting.bigsoftware.bigpowerlifting.maxeffort.MaxEffortResultFragment"
+        android:id="@+id/wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp">
+
+        <TextView
+            android:id="@+id/maxeffort_methodname_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_light"
+            android:text="@string/hello_blank_fragment"
+            android:textSize="16dp"
+            android:textColor="@color/cardTitle"/>
+
+        <TextView
+            android:id="@+id/maxeffort_methodvalue_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/maxeffort_methodname_tv"
+            android:fontFamily="@font/roboto_light"
+            android:text="@string/hello_blank_fragment"
+            android:textColor="@color/cardContent"
+            android:textSize="14dp"
+            android:paddingBottom="16dp"/>
+        <View
+            android:layout_below="@id/maxeffort_methodvalue_tv"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider"/>
+    </RelativeLayout>
+</LinearLayout>
+
